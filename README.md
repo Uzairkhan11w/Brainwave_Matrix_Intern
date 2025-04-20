@@ -24,12 +24,14 @@ Brainwave_Matrix_Intern/ ├── data/ ├── src/ ├── reports/ ├�
 
 ## 🛠️ How to Run
 
-```bash
+```
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the pipeline
 python main.py
+
+```
 
 ## 📄 Sample Output  
 📄 [Click here to view the PDF Report](reports/sales_analysis_report.pdf)  
