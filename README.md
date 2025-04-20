@@ -32,7 +32,8 @@ pip install -r requirements.txt
 python main.py
 
 📄 Sample Output
-[sales_analysis_report.pdf](reports/sales_analysis_report.pdf)
+[Click here to view the PDF Report](reports/sales_analysis_report.pdf)
+
 
 See reports/eda_plots/ for all visualizations
 
@@ -48,4 +49,5 @@ Abdul Ahad Azad Memorial Dergree College, Bemina
 Cluster University Srinagar
 
 🔗 LinkedIn
-[LinkedIn](https://www.linkedin.com/in/uzairkhan11w/)
+[Connect on LinkedIn](https://www.linkedin.com/in/uzairkhan11w/)
+
