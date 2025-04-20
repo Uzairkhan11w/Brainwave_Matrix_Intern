@@ -31,11 +31,10 @@ pip install -r requirements.txt
 # Run the pipeline
 python main.py
 
-📄 Sample Output
-[Click here to view the PDF Report](reports/sales_analysis_report.pdf)
+## 📄 Sample Output  
+📄 [Click here to view the PDF Report](reports/sales_analysis_report.pdf)  
+📁 See `reports/eda_plots/` for all EDA visualizations  
 
-
-See reports/eda_plots/ for all visualizations
 
 🙏 Acknowledgment
 This project was developed during my internship at Brainwave Matrix Solutions.
@@ -48,6 +47,4 @@ B.Sc. (Hons./Research) in Statistics
 Abdul Ahad Azad Memorial Dergree College, Bemina
 Cluster University Srinagar
 
-🔗 LinkedIn
-[Connect on LinkedIn](https://www.linkedin.com/in/uzairkhan11w/)
-
+👤 [Connect on LinkedIn](https://www.linkedin.com/in/uzairkhan11w/)
