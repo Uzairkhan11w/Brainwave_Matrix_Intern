@@ -1,0 +1,8 @@
+2025-04-20 14:52:22,098 INFO:Pipeline started
+2025-04-20 14:52:25,801 INFO:Data loaded with shape: (5681, 11)
+2025-04-20 14:53:46,005 INFO:Pipeline started
+2025-04-20 14:53:48,339 INFO:Data loaded with shape: (5681, 11)
+2025-04-20 14:53:48,497 INFO:Preprocessing completed
+2025-04-20 15:11:02,368 INFO:Pipeline started
+2025-04-20 15:11:03,346 INFO:Data loaded with shape: (5681, 11)
+2025-04-20 15:11:03,457 INFO:Preprocessing completed
