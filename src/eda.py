@@ -17,7 +17,6 @@ def generate_eda_plots(df):
     plt.savefig("reports/eda_plots/correlation_heatmap.png")
     plt.close()
 
-    # Create dummy OutletType for plotting if needed
     if 'OutletType_Supermarket Type1' in df.columns:
         df['OutletType'] = df.apply(
             lambda row: 'Supermarket Type1' if row.get('OutletType_Supermarket Type1', 0) == 1 else 'Grocery Store',
