@@ -39,7 +39,7 @@ Brainwave_Matrix_Intern/
 * Applied both classical (XGBoost) and transformer-based (BERT) models.
 * Key insights extracted using NLP and temporal analytics.
 
-> 📄 Read the full documentation [here](.Task2/readme.md)
+> 📄 Read the full documentation [here](./Task2/readme.md)
 
 ---
 
