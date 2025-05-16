@@ -46,8 +46,12 @@ Brainwave_Matrix_Intern/
 ## 🙋‍♂️ Author
 
 **Uzair Javid Khan**
-Data Science Intern – Brainwave Matrix Solutions
-B.Sc. (Hons/Research) in Statistics, Cluster University Srinagar
+Data Science Intern at Brainwave Matrix Solutions
+B.Sc. (Hons./Research) in Statistics
+Abdul Ahad Azad Memorial Dergree College, Bemina
+Cluster University Srinagar
+
+👤 [Connect on LinkedIn](https://www.linkedin.com/in/uzairkhan11w/)
 
 ---
 
