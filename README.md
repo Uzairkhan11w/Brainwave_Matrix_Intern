@@ -1,5 +1,3 @@
----
-
 # 🌐 Brainwave Matrix Intern Projects
 
 Welcome to my internship project repository at **Brainwave Matrix Solutions**. This repository showcases the hands-on projects I developed during my Data Science Internship, covering end-to-end pipelines, model building, and deployment-ready structures.
@@ -57,5 +55,3 @@ B.Sc. (Hons/Research) in Statistics, Cluster University Srinagar
 
 Special thanks to my mentors at **Brainwave Matrix Solutions** for their guidance.
 Pull requests are welcome if you’d like to collaborate!
-
----
