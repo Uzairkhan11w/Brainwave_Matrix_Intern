@@ -1,5 +1,3 @@
-Here’s a **main `README.md`** you can add at the root of your repository (`Brainwave_Matrix_Intern`) that introduces and links to both Task 1 and Task 2 projects. This provides a clean overview:
-
 ---
 
 # 🌐 Brainwave Matrix Intern Projects
