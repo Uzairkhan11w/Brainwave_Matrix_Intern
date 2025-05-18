@@ -33,7 +33,7 @@ Brainwave_Matrix_Intern/
 
 ---
 
-### 🔹 [Task 2: Climate Change Sentiment Analysis](./task2)
+### 🔹 [Task 2: Climate Change Sentiment Analysis](./Task2)
 
 * Analyzed over 43,000 tweets on climate change.
 * Applied both classical (XGBoost) and transformer-based (BERT) models.
