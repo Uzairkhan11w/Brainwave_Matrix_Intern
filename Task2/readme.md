@@ -35,8 +35,8 @@ Task_2/
 
 ## 🚀 Installation
 ```bash
-git clone https://github.com/Uzairkhan11w/Brainwave_Matrix_Intern/edit/main/Task2
-cd Brainwave_Matrix_Intern/Task_2
+git clone https://github.com/Uzairkhan11w/Brainwave_Matrix_Intern
+cd Brainwave_Matrix_Intern/Task2
 pip install -r requirements.txt
 ```
 
