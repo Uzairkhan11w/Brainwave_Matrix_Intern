@@ -1,23 +1,25 @@
-# src/predict.py
+# src/predict.py (FIXED VERSION)
 import joblib
 import sys
 import os
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-import re
-import nltk
+from pathlib import Path
 
 class SentimentPredictor:
-    def __init__(self, model_path=None):
-        # Get absolute path to model
-        if model_path is None:
-            current_dir = os.path.dirname(os.path.abspath(__file__))
-            model_path = os.path.join(current_dir, "..", "models", "xgb_model.pkl")
+    def __init__(self):
+        # Get absolute path to models directory
+        current_dir = Path(__file__).parent  # src folder
+        project_root = current_dir.parent    # Task2 folder
+        model_path = project_root / "models" / "xgb_model.pkl"
         
         # Verify model exists
-        if not os.path.exists(model_path):
-            raise FileNotFoundError(f"Model file not found at: {model_path}\n"
-                                   "Please ensure you've run the training script first")
+        if not model_path.exists():
+            raise FileNotFoundError(f"""
+            Model not found at: {model_path}
+            1. Ensure you've run the training script first
+            2. Check if xgb_model.pkl exists in models/
+            """)
+            
+        self.model = joblib.load(model_path)
         
         # Load resources
         self._download_nltk_resources()
