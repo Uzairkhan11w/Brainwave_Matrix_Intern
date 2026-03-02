@@ -1,0 +1,6 @@
+logs/*.log
+reports/eda_plots/*.png
+reports/*.pdf
+data/*.xlsx
+__pycache__/
+*.pyc
