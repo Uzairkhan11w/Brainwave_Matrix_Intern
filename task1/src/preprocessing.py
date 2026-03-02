@@ -1,7 +1,12 @@
+import logging
+
 import pandas as pd
 from sklearn.impute import SimpleImputer, KNNImputer
 
+
 def preprocess_data(df: pd.DataFrame, use_knn=False) -> pd.DataFrame:
+    df = df.copy()
+
     numeric_cols = df.select_dtypes(include=['int64', 'float64']).columns.tolist()
     categorical_cols = df.select_dtypes(include=['object']).columns.tolist()
 
@@ -28,15 +33,24 @@ def preprocess_data(df: pd.DataFrame, use_knn=False) -> pd.DataFrame:
     outlet_cols = df.columns[df.columns.str.startswith('OutletType_')].tolist()
     location_cols = df.columns[df.columns.str.startswith('LocationType_')].tolist()
 
-    filter_condition = pd.Series([False] * len(df))
+    original_len = len(df)
+    filter_condition = pd.Series([False] * len(df), index=df.index)
     if 'OutletType_Supermarket Type1' in outlet_cols:
         filter_condition |= df['OutletType_Supermarket Type1'] == 1
     if 'OutletType_Grocery Store' in outlet_cols:
         filter_condition |= df['OutletType_Grocery Store'] == 1
 
     df = df[filter_condition]
+    if len(df) < original_len:
+        pct = 100 * (original_len - len(df)) / original_len
+        logging.warning(f"OutletType filter dropped {original_len - len(df)} rows ({pct:.1f}%)")
 
     if 'LocationType_Tier 2' in location_cols:
+        before = len(df)
         df = df[df['LocationType_Tier 2'] == 1]
+        dropped = before - len(df)
+        if dropped > 0:
+            pct = 100 * dropped / before if before > 0 else 0
+            logging.warning(f"LocationType filter dropped {dropped} rows ({pct:.1f}%)")
 
     return df

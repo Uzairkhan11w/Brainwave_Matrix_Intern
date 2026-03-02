@@ -18,7 +18,16 @@ It showcases an end-to-end AI analytics pipeline for commercial retail data usin
 
 ## 🗂️ Folder Structure
 
-Brainwave_Matrix_Intern/ ├── data/ ├── src/ ├── reports/ ├── logs/ ├── dashboard/ ├── main.py ├── requirements.txt └── README.md
+```
+task1/
+├── data/
+├── src/
+├── reports/
+├── logs/
+├── main.py
+├── requirements.txt
+└── README.md
+```
 
 ---
 
@@ -38,11 +47,11 @@ python main.py
 📁 See `reports/eda_plots/` for all EDA visualizations  
 
 
-🙏 Acknowledgment
+## 🙏 Acknowledgment
 This project was developed during my internship at Brainwave Matrix Solutions.
 Thanks to the team for their mentorship and support.
 
-👤 Author
+## 👤 Author
 Uzair Javid Khan
 Data Science Intern at Brainwave Matrix Solutions
 B.Sc. (Hons./Research) in Statistics
